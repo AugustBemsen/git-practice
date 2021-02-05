@@ -3,3 +3,17 @@ body {
     color: aqua;
     text-align: center;
 }
+
+.three-boxes {
+    width: 60%;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-1, .box-2, .box-3 {
+    width:  250px;
+    height: 250px;
+    background: chartreuse;
+}
